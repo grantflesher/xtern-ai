@@ -1,0 +1,3 @@
+Given the work required to bring a solution like this to maturity and its performance, what considerations would you make to determine if this is a suitable course of action?
+
+To make sure this is a suitable course of action, make sure that the machine learning model can help predict what students are going to order. Does the model have enough data to succeed or do we need to get more information for the model to be successful? Another factor to consider is how the model would be integrated with foodX. Would each food truck have access to the tool and how would that work? 
