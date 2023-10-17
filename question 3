@@ -1,0 +1,19 @@
+Build a model to predict a customers order from their available information.  You will be graded largely on your intent and process when designing the model, performance is secondary. It is strongly suggested that you use SKLearn for this model as to not take too much time.  You may use any kind implementation you would like though, but it must be pickelable and have a “.predict()” method similar to SKLearn
+
+-Outline your process for model selection, training and testing. Including data preparation.
+-Design a function that prepares your data by loading the provided dataset and processes it into an appropriate machine readable format if necessary.
+-Design a function to train your model and pickle it.
+-Train and test your model.  Submit any training, testing and model selection visuals or metrics.
+-Upload your work to GitHub and link the repository, make sure it is public.
+
+First I chose a model. I am going to work with a random forest because it tends to be very accurate because of its multiple trees. I would take the data from the provided google sheets and format it so each college or order would be resembled by a number. I would then make sure it is properly formatted,s o it is a viable data set. Divide the data set into two parts so we have the training set and the testing set. After using the training data with machine learning, use the testing data to see accuracy of the program.
+
+This function will be similar to the ideas above. First you would make the code read in the data set. Transform each college, order, and major to a correlating number. Lastly, split the data into two parts, so we have a training and testing set.
+
+def train_function(x,y):
+	model = RandomForestClassifier()
+model.fit(x,y)
+
+#save the model
+
+Using the functions that prepare the data and train the model, test the model and see the results.
