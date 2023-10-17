@@ -1,0 +1,199 @@
+Given the data set, do a quick exploratory data analysis to get a feel for the distributions and biases of the data.  Report any visualizations and findings used and suggest any other impactful business use cases for that data.
+
+The data set gives 5000 entries of data from students participating in the FoodX interactive promotion. Each entry answered five questions: Year, Major, University,Time and their Order. In the data, year has four possibilities (years 1 to year 4), 20 different college majors, 10 college campuses, and 10 different food orders. It is important to note that the data is not evenly distributed. There are less than 10 year 1 and year 4 students, Civil Engineering has three people, and there is only one person from Purdue university.
+
+Charts with distribution (the format was messed up):
+Year
+Count
+Percent
+Year 1
+5
+0.10%
+Year 2
+2273
+45.46%
+Year 3
+2719
+54.38%
+Year 4
+3
+0.06%
+
+
+
+Major
+Count
+Percent
+Accounting
+61
+1.22%
+Anthropology
+146
+2.92%
+Astronomy
+619
+12.38%
+Biology
+635
+12.70%
+Business Administration
+334
+6.68%
+Chemistry
+640
+12.80%
+Civil Engineering
+3
+0.06%
+Economics
+511
+10.22%
+Finance
+135
+2.70%
+Fine Arts
+3
+0.06%
+International Business
+29
+0.58%
+Marketing
+239
+4.78%
+Mathematics
+582
+11.64%
+Mechanical Engineering
+11
+0.22%
+Music
+21
+0.42%
+Philosophy
+4
+0.08%
+Physics
+610
+12.2%
+Political Science
+309
+6.18%
+Psychology
+76
+1.52%
+Sociology
+31
+0.62%
+
+
+
+	
+University
+Count
+Percent
+Ball State
+1085
+21.7%
+butler
+1614
+32.28%
+depauw
+1
+0.02%
+Indiana state
+1309
+26.18%
+Indiana University
+12
+0.24%
+IUPUI
+682
+13.64%
+Purdue University
+1
+0.02%
+University of Evansville
+143
+2.86%
+University of Notre Dame
+144
+2.88%
+Valparaiso University
+9
+0.18%
+
+
+Time
+Count 
+Percent
+8
+8
+0.16%
+9
+40
+0.80%
+10
+247
+4.94%
+11
+857
+17.14%
+12
+1314
+28.28%
+13
+1316
+26.32%
+14
+883
+17.66%
+15
+282
+5.64%
+16
+49
+0.98%
+17
+4
+0.08%
+
+
+
+Order
+Count
+Percent
+Breaded Pork Tenderloin Sandwich
+494
+9.88%
+Cornbread Hush Puppies
+510
+10.20%
+Fried Catfish Basket
+490
+9.80%
+Indiana Pork Chili
+510
+10.20%
+Indiana Corn on the Cob (brushed with garlic butter)
+495
+9.90%
+Sweet Potato Fries
+508
+10.16%
+Indiana Buffalo Chicken Tacos (3 tacos)
+496
+9.92%
+Sugar Cream Pie
+512
+10.24%
+Ultimate Grilled Cheese Sandwich (with bacon and tomato)
+503
+10.06%
+Hoosier BBQ Pulled Pork Sandwich
+482
+9.64%
+
+Using a crosstab, I can see that orders change depending on a person's year. A year 2 individual is more likely to order an ultimate grilled cheese while a year 3 student is more likely to order a Sugar Cream Pie.  Doing a crosstab between college major and order shows that major can have an effect on order. A biology major is most likely to order Indiana Pork Chili while business administration majors rarely if ever order Indiana Pork Chili.
+
+A FoodX could use this data! One use is finding which food is popular at which universities and using that information to have enough of the food and have less of the unpopular foods at each school. Additionally FoodX could target specific majors with specific foods! Food could have a food truck for Indiana Pork CHili and Hoosier BBQ outside of a university's biology building because those are the most popular food options for bio majors. 
+
